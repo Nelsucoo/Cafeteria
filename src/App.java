@@ -4,6 +4,7 @@ import java.util.List;
 public class App {
 
     public static void main(String[] args) {
+        
 
         // --- ENSAMBLAJE: aqui se deciden las piezas concretas que usara el programa ---
         Cafeteria cafeteria = new Cafeteria(new DescuentoEstudiante());   // Strategy
@@ -34,4 +35,5 @@ public class App {
             System.out.println("Error: " + e.getMessage());
         }
     }
+    
 }

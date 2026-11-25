@@ -38,6 +38,8 @@ public class Cafeteria {
         baristas.put("te", new BaristaTe());
         extras.put("leche", ConLeche::new);
         extras.put("shot", ConShotExtra::new);
+        baristas.put("chocolate", new BaristaChocolate());
+        extras.put("crema", ConCrema::new);
     }
 
     // Permite que alguien se "suscriba" para recibir avisos de cada pedido confirmado.
